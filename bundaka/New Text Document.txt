@@ -1,0 +1,225 @@
+@import "reset.css";
+*, *::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/3e/6c/cb/3e6ccb5735b23bb2a3c3daa9b2e0a5da.jpg');
+}
+nav{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    box-shadow: /*gainsboro 5px 5px 10px;*/ 0px 5px 15px rgba(0, 0, 0, 0.3)
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #292929;
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    color: #292929;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+p{
+    color: #292929;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+button{
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #292929;
+    padding: 15px 32px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #ffbc0d;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+i{
+    font-style: normal;
+    color: rgba(54, 54, 54, 0.739);
+}
+.logo{
+    margin: auto;
+}
+   .logo img{
+    width: 200px;
+    margin-left: 110px;
+}
+.navitems{
+    width: 100%;
+    margin-right: auto;
+}
+   .navitems ul{
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        margin: 35px 120px auto auto;
+}
+         .navitems ul a{
+                   width: 30px;
+                   margin: 40px 30px;
+                   letter-spacing: 2px;
+                   font-size: 18px;
+                   color: #292929;
+}
+                .navitems ul a:hover{
+                color: #fff;
+                transition: 0.3s;
+                background-color: rgb(0, 0, 0);
+                padding: 5px;
+                border-radius: 5px;
+                }
+.burger{
+    margin-top: 30px;
+}
+.layer{
+    width: 20px;
+    height: 3px;
+    margin: 4px;
+    display: none;
+    background-color: black;
+}
+.white-background{
+    background-color: white;
+    padding: 1px;
+    margin-top:20px;
+}
+     .header-img{
+         height: 520px;
+         width: 1168px;
+         border-radius: 5px;
+         margin: 50px auto;
+         background-image: url('bethany-fullsize.jpg');
+}
+          .box{
+            
+              width: 392px;
+              margin: 500px;
+              border-radius: 5px;
+              height: 420px;
+              background-color: #fff;
+              position: absolute;
+              border: 3px dashed #ffbc0d;
+              padding: 21px 0 46px 29px;
+              
+    }
+                    .box p {
+                        margin: 20px 0;
+                        width: 334px;
+               }
+.content-container{
+    width: 1200px;
+    display: flex;
+    margin:100px auto;
+    justify-content: space-around;
+}
+          .section{
+              width: 366px;
+              margin:10px auto;
+              padding: 10px 10px 40px 10px;
+              background-color: whitesmoke;
+              border-radius: 5px;
+              white-space: pre-line;
+}
+                          .section img{
+                                 width: 339px;
+                                 height: 220px;
+                                 border-radius: 4px;
+}
+                                 .section img:hover{
+                                     padding: 2.5px 5px;
+                                     border-radius: 13px;
+                                     transition: 0.3s;
+                                 }
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 150px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3) inset;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background-color: #f6eec9;
+}
+.sec-one{
+    padding: 5px;
+}
+        .sec-one ul{
+            list-style: none;
+        }
+            .sec-one ul a{
+                margin: 4px auto;
+                letter-spacing: 1px;
+                display: flex;
+                color: #292929;
+                text-decoration: none;
+      }
+                  .sec-one ul a:hover{
+                     transition: 0.2s;
+                      color: red;
+             }
+.sec-two{
+    width: 200px;
+    margin: auto 20px;
+    text-align: center;
+}
+     .sec-two .icons {
+        margin: 2px;
+        padding: 5px;
+        width: auto;
+        height: auto;
+        position: relative;
+        display: inline-block;
+     }
+          .sec-two .icons a{
+              width: 100%;
+             margin: auto 10px;
+    }
+       .sec-two .icons a img{
+           width: 25px;
+       }
+          .sec-two .icons .ig-icon:hover{
+              background-color: rgba(255, 187, 0, 0.609);
+              transition: .3s;
+              border-radius: 5px;
+        }
+        .sec-two .icons .pin-icon:hover{
+            background-color: rgba(255, 187, 0, 0.609);
+            transition: .3s;
+            border-radius: 5px;
+      }
+         .sec-two .impo-text{
+             padding: 5px;
+             margin: 2px;
+         }
+             .sec-two .impo-text a:hover{
+                   color: red;
+                   text-decoration: underline red;
+                   transition: 0.2s;
+        }
+.sec-three{
+    margin: auto 0;
+    padding: 5px;
+    text-align: right;
+}
+      .sec-three a:hover{
+          color: red;
+          text-decoration: underline red;
+          transition: 0.2s;
+      }
